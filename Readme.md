@@ -86,6 +86,10 @@ iconutil -c icns icon.iconset
 
 - https://www.myabandonware.com/game/cricket-97-ashes-tour-edition-ftc
 
+### Web Version
+
+- I found that the game is also available to play for free on the web version. Here’s the link: https://playclassic.games/games/sport-dos-games-online/play-cricket-97-online/. However, there is a significant amount of lag on the web version, so my efforts in setting up the DMG Installer have not gone to waste.
+
 ### [Game Overview](https://github.com/user-attachments/assets/890b1426-e511-461a-a586-3772d3fa34e1)
 
 ### [Game Play](https://github.com/user-attachments/assets/b7a736dc-95cb-412b-9eee-94588e895a02)
@@ -94,7 +98,5 @@ iconutil -c icns icon.iconset
 P.S. Most of the troubleshooting went in figuring out why the path to the Game Files were not getting mounted. The issue
     was with how DOSBox-X handles longer filenames. In DOS, filenames are converted to an 8-character name followed
     by a 3-character extension. The first 6 characters of the folder name are used. A `~1` is appended to indicate a
-    shortened version. DOSBox-X uses DOS 8.3 filename format (short file names) which is why /Applications gets shortened to /applic~1. This can be avoided by simply enclosing the file paths in double quotes (the good ol' solution). Other
-    improvements include a more organized and professional looking file structure for a typical MacOS App. DMG installer makes
-    the game more accessible with a user-friendly installation support. And for some reason, voice commentary and the game itself
-    is working much better now. And of course, you can launch it quickly using `Cmd + Space` now that it's a pre-installed application.
+    shortened version. DOSBox-X uses DOS 8.3 filename format (short file names) which is why /Applications gets shortened to /applic~1. This can be avoided by simply enclosing the file paths in double quotes (the good ol' solution). Other improvements include a more organized and professional looking file structure for a typical MacOS App. DMG installer makes the game more accessible with a user-friendly installation support. And for some reason, voice commentary and the game itself is working much better now. And of course, you can launch it quickly using `Cmd + Space` now that it's a pre-installed application.
+
